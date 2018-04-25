@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A29DF209078570013D4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A29DE209078570013D4F3 /* AppDelegate.swift */; };
+		DB1A29E1209078570013D4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A29E0209078570013D4F3 /* ViewController.swift */; };
+		DB1A29E4209078570013D4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A29E2209078570013D4F3 /* Main.storyboard */; };
+		DB1A29E6209078580013D4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1A29E5209078580013D4F3 /* Assets.xcassets */; };
+		DB1A29E9209078580013D4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A29E7209078580013D4F3 /* LaunchScreen.storyboard */; };
+		DB1A29F4209078580013D4F3 /* ZPZScrollViewNestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A29F3209078580013D4F3 /* ZPZScrollViewNestProjectTests.swift */; };
+		DB1A29FF209078580013D4F3 /* ZPZScrollViewNestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A29FE209078580013D4F3 /* ZPZScrollViewNestProjectUITests.swift */; };
+		DB1A2A0D20907C580013D4F3 /* ZPZScrollViewSwiftNestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1A2A0C20907C580013D4F3 /* ZPZScrollViewSwiftNestVC.swift */; };
+		DB1A2A1120907C730013D4F3 /* ZPZScrollViewOCNestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A2A1020907C730013D4F3 /* ZPZScrollViewOCNestVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1A29F0209078580013D4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1A29D3209078570013D4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1A29DA209078570013D4F3;
+			remoteInfo = ZPZScrollViewNestProject;
+		};
+		DB1A29FB209078580013D4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1A29D3209078570013D4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1A29DA209078570013D4F3;
+			remoteInfo = ZPZScrollViewNestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1A29DB209078570013D4F3 /* ZPZScrollViewNestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPZScrollViewNestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A29DE209078570013D4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1A29E0209078570013D4F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB1A29E3209078570013D4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1A29E5209078580013D4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1A29E8209078580013D4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1A29EA209078580013D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1A29EF209078580013D4F3 /* ZPZScrollViewNestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPZScrollViewNestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A29F3209078580013D4F3 /* ZPZScrollViewNestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPZScrollViewNestProjectTests.swift; sourceTree = "<group>"; };
+		DB1A29F5209078580013D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1A29FA209078580013D4F3 /* ZPZScrollViewNestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPZScrollViewNestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A29FE209078580013D4F3 /* ZPZScrollViewNestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPZScrollViewNestProjectUITests.swift; sourceTree = "<group>"; };
+		DB1A2A00209078580013D4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1A2A0C20907C580013D4F3 /* ZPZScrollViewSwiftNestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPZScrollViewSwiftNestVC.swift; sourceTree = "<group>"; };
+		DB1A2A0E20907C720013D4F3 /* ZPZScrollViewNestProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZPZScrollViewNestProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB1A2A0F20907C730013D4F3 /* ZPZScrollViewOCNestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZScrollViewOCNestVC.h; sourceTree = "<group>"; };
+		DB1A2A1020907C730013D4F3 /* ZPZScrollViewOCNestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZScrollViewOCNestVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A29D8209078570013D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29EC209078580013D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29F7209078580013D4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1A29D2209078570013D4F3 = {
+			isa = PBXGroup;
+			children = (
+				DB1A29DD209078570013D4F3 /* ZPZScrollViewNestProject */,
+				DB1A29F2209078580013D4F3 /* ZPZScrollViewNestProjectTests */,
+				DB1A29FD209078580013D4F3 /* ZPZScrollViewNestProjectUITests */,
+				DB1A29DC209078570013D4F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A29DC209078570013D4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A29DB209078570013D4F3 /* ZPZScrollViewNestProject.app */,
+				DB1A29EF209078580013D4F3 /* ZPZScrollViewNestProjectTests.xctest */,
+				DB1A29FA209078580013D4F3 /* ZPZScrollViewNestProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A29DD209078570013D4F3 /* ZPZScrollViewNestProject */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A29DE209078570013D4F3 /* AppDelegate.swift */,
+				DB1A29E0209078570013D4F3 /* ViewController.swift */,
+				DB1A29E2209078570013D4F3 /* Main.storyboard */,
+				DB1A29E5209078580013D4F3 /* Assets.xcassets */,
+				DB1A29E7209078580013D4F3 /* LaunchScreen.storyboard */,
+				DB1A29EA209078580013D4F3 /* Info.plist */,
+				DB1A2A0C20907C580013D4F3 /* ZPZScrollViewSwiftNestVC.swift */,
+				DB1A2A0F20907C730013D4F3 /* ZPZScrollViewOCNestVC.h */,
+				DB1A2A1020907C730013D4F3 /* ZPZScrollViewOCNestVC.m */,
+				DB1A2A0E20907C720013D4F3 /* ZPZScrollViewNestProject-Bridging-Header.h */,
+			);
+			path = ZPZScrollViewNestProject;
+			sourceTree = "<group>";
+		};
+		DB1A29F2209078580013D4F3 /* ZPZScrollViewNestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A29F3209078580013D4F3 /* ZPZScrollViewNestProjectTests.swift */,
+				DB1A29F5209078580013D4F3 /* Info.plist */,
+			);
+			path = ZPZScrollViewNestProjectTests;
+			sourceTree = "<group>";
+		};
+		DB1A29FD209078580013D4F3 /* ZPZScrollViewNestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A29FE209078580013D4F3 /* ZPZScrollViewNestProjectUITests.swift */,
+				DB1A2A00209078580013D4F3 /* Info.plist */,
+			);
+			path = ZPZScrollViewNestProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A29DA209078570013D4F3 /* ZPZScrollViewNestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A2A03209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProject" */;
+			buildPhases = (
+				DB1A29D7209078570013D4F3 /* Sources */,
+				DB1A29D8209078570013D4F3 /* Frameworks */,
+				DB1A29D9209078570013D4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPZScrollViewNestProject;
+			productName = ZPZScrollViewNestProject;
+			productReference = DB1A29DB209078570013D4F3 /* ZPZScrollViewNestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1A29EE209078580013D4F3 /* ZPZScrollViewNestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A2A06209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProjectTests" */;
+			buildPhases = (
+				DB1A29EB209078580013D4F3 /* Sources */,
+				DB1A29EC209078580013D4F3 /* Frameworks */,
+				DB1A29ED209078580013D4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1A29F1209078580013D4F3 /* PBXTargetDependency */,
+			);
+			name = ZPZScrollViewNestProjectTests;
+			productName = ZPZScrollViewNestProjectTests;
+			productReference = DB1A29EF209078580013D4F3 /* ZPZScrollViewNestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1A29F9209078580013D4F3 /* ZPZScrollViewNestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A2A09209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProjectUITests" */;
+			buildPhases = (
+				DB1A29F6209078580013D4F3 /* Sources */,
+				DB1A29F7209078580013D4F3 /* Frameworks */,
+				DB1A29F8209078580013D4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1A29FC209078580013D4F3 /* PBXTargetDependency */,
+			);
+			name = ZPZScrollViewNestProjectUITests;
+			productName = ZPZScrollViewNestProjectUITests;
+			productReference = DB1A29FA209078580013D4F3 /* ZPZScrollViewNestProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A29D3209078570013D4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zhoupengzu;
+				TargetAttributes = {
+					DB1A29DA209078570013D4F3 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					DB1A29EE209078580013D4F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DB1A29DA209078570013D4F3;
+					};
+					DB1A29F9209078580013D4F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DB1A29DA209078570013D4F3;
+					};
+				};
+			};
+			buildConfigurationList = DB1A29D6209078570013D4F3 /* Build configuration list for PBXProject "ZPZScrollViewNestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1A29D2209078570013D4F3;
+			productRefGroup = DB1A29DC209078570013D4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A29DA209078570013D4F3 /* ZPZScrollViewNestProject */,
+				DB1A29EE209078580013D4F3 /* ZPZScrollViewNestProjectTests */,
+				DB1A29F9209078580013D4F3 /* ZPZScrollViewNestProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A29D9209078570013D4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A29E9209078580013D4F3 /* LaunchScreen.storyboard in Resources */,
+				DB1A29E6209078580013D4F3 /* Assets.xcassets in Resources */,
+				DB1A29E4209078570013D4F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29ED209078580013D4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29F8209078580013D4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A29D7209078570013D4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A2A0D20907C580013D4F3 /* ZPZScrollViewSwiftNestVC.swift in Sources */,
+				DB1A2A1120907C730013D4F3 /* ZPZScrollViewOCNestVC.m in Sources */,
+				DB1A29E1209078570013D4F3 /* ViewController.swift in Sources */,
+				DB1A29DF209078570013D4F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29EB209078580013D4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A29F4209078580013D4F3 /* ZPZScrollViewNestProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1A29F6209078580013D4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A29FF209078580013D4F3 /* ZPZScrollViewNestProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1A29F1209078580013D4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1A29DA209078570013D4F3 /* ZPZScrollViewNestProject */;
+			targetProxy = DB1A29F0209078580013D4F3 /* PBXContainerItemProxy */;
+		};
+		DB1A29FC209078580013D4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1A29DA209078570013D4F3 /* ZPZScrollViewNestProject */;
+			targetProxy = DB1A29FB209078580013D4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1A29E2209078570013D4F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A29E3209078570013D4F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1A29E7209078580013D4F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A29E8209078580013D4F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A2A01209078580013D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB1A2A02209078580013D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A2A04209078580013D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZPZScrollViewNestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZPZScrollViewNestProject/ZPZScrollViewNestProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1A2A05209078580013D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZPZScrollViewNestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZPZScrollViewNestProject/ZPZScrollViewNestProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB1A2A07209078580013D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTQKWEYF3;
+				INFOPLIST_FILE = ZPZScrollViewNestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPZScrollViewNestProject.app/ZPZScrollViewNestProject";
+			};
+			name = Debug;
+		};
+		DB1A2A08209078580013D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTQKWEYF3;
+				INFOPLIST_FILE = ZPZScrollViewNestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPZScrollViewNestProject.app/ZPZScrollViewNestProject";
+			};
+			name = Release;
+		};
+		DB1A2A0A209078580013D4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTQKWEYF3;
+				INFOPLIST_FILE = ZPZScrollViewNestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPZScrollViewNestProject;
+			};
+			name = Debug;
+		};
+		DB1A2A0B209078580013D4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTQKWEYF3;
+				INFOPLIST_FILE = ZPZScrollViewNestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZScrollViewNestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPZScrollViewNestProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A29D6209078570013D4F3 /* Build configuration list for PBXProject "ZPZScrollViewNestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A2A01209078580013D4F3 /* Debug */,
+				DB1A2A02209078580013D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A2A03209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A2A04209078580013D4F3 /* Debug */,
+				DB1A2A05209078580013D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A2A06209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A2A07209078580013D4F3 /* Debug */,
+				DB1A2A08209078580013D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A2A09209078580013D4F3 /* Build configuration list for PBXNativeTarget "ZPZScrollViewNestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A2A0A209078580013D4F3 /* Debug */,
+				DB1A2A0B209078580013D4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A29D3209078570013D4F3 /* Project object */;
+}
